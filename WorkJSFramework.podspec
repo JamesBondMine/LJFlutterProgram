@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "WorkJSFramework"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "A short description of WorkJSFramework."
   s.description  = <<-DESC
   WorkJSFramework
@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/JamesBondMine/LJFlutterProgram.git', :tag => s.version.to_s }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+  s.vendored_frameworks = 'WorkJS.framework'
 end
