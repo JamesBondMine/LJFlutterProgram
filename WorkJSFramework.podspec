@@ -1,17 +1,16 @@
 
-Pod::Spec.new do |spec|
-
-  spec.name         = "WorkJSFramework"
-  spec.version      = "0.0.4"
-  spec.summary      = "A short description of WorkJSFramework."
-  spec.description  = <<-DESC
+Pod::Spec.new do |s|
+  s.name         = "WorkJSFramework"
+  s.version      = "0.0.5"
+  s.summary      = "A short description of WorkJSFramework."
+  s.description  = <<-DESC
   WorkJSFramework
                    DESC
 
-  spec.homepage     = "https://github.com/JamesBondMine/LJFlutterProgram"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author             = { "JamesBondMine" => "lujia58@outlook.com" }
-  spec.source       = { :git => 'https://github.com/JamesBondMine/WorkJSFramework.git', :tag => s.version.to_s }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  s.homepage     = "https://github.com/JamesBondMine/LJFlutterProgram"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author             = { "JamesBondMine" => "lujia58@outlook.com" }
+  s.source       = { :git => 'https://github.com/JamesBondMine/WorkJSFramework.git', :tag => s.version.to_s }
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
 end
